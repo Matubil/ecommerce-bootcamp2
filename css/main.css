@@ -1,0 +1,25 @@
+.main-nav {
+  background-color: darkblue;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /*.main-nav .nav-links{
+      padding: 2rem;
+  } en vez de colocar eso en el styles, aca lo podemos colocar dentro que va a ser lo mismo*/
+}
+.main-nav .nav-links {
+  padding: 2rem;
+}
+.main-nav .nav-links .nav-item {
+  text-decoration: none;
+  color: white;
+}
+.main-nav .nav-links .nav-item.active {
+  color: cornflowerblue;
+  font-weight: bold;
+}
+.main-nav .nav-links .nav-item:hover {
+  font-size: 1.2rem;
+  color: darkred;
+}/*# sourceMappingURL=main.css.map */

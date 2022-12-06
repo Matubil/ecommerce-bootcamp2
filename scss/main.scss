@@ -1,0 +1,28 @@
+.main-nav{
+    background-color: darkblue;
+    color: white;
+    height: 60px;
+    display:flex;
+    align-items: center;
+
+    /*.main-nav .nav-links{
+        padding: 2rem;
+    } en vez de colocar eso en el styles, aca lo podemos colocar dentro que va a ser lo mismo*/
+    .nav-links{
+        padding: 2rem;
+
+        .nav-item{
+            text-decoration: none;
+            color: white;
+            &.active{
+                // cuando le pongo un &.clase, lo que hace, es buscar una clase que tenga los dos nombres dentro, osea que esten anidados
+                color: cornflowerblue;
+                font-weight: bold;
+            }
+            &:hover{
+                font-size: 1.2rem;
+                color: darkred;
+            }
+        }        
+    }
+}

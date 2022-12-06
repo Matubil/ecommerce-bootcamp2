@@ -1,0 +1,28 @@
+/* .main-nav{
+    background-color: salmon;
+    color: white;
+    height: 60px;
+    display:flex;
+    align-items: center;
+}
+
+.main-nav .nav-links{
+    padding: 2rem;
+}
+
+.main-nav .nav-links .nav-item{
+    text-decoration: none;
+    color: white;
+    /* fijarse que para cambiar el color del link, se hace esto 
+}
+
+.main-nav .nav-links .nav-item.active{
+    color: cornflowerblue;
+    font-weight: 500;
+}
+
+.main-nav .nav-links .nav-item:hover{
+    font-size: 1.2rem;
+    color: darkred;
+} */
+
