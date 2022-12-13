@@ -1,9 +1,13 @@
 // importante, que aunque los elementos dentro de las carpetas tengan guion bajo, no se los pone, ya que los toma igualmente
 
 @import "abstracts/variables";
+
 @import "components/card";
+
 @import "base/reset";
+
 @import "base/typography";
+
 @import "layout/header";
 
 @import "pages/home"
